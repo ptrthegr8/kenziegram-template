@@ -16,11 +16,13 @@ form {
     margin: 0 auto;
     text-align: center;
 }
+
 button {
     background-color: maroon;
     color: white;
     border-radius: 7px;
 }
+
 #button-container {
     display: inline;
 }
@@ -28,6 +30,7 @@ button {
 #file-container {
     display: inline-block;
 }
+
 #myFile {
     width: 160px;
 }
@@ -39,5 +42,4 @@ img {
     margin: 0px 50px 0px 50px;
     /*object-fit: cover;*/
     text-align: center;
-    
 }
