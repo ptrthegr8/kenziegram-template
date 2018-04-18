@@ -15,7 +15,6 @@ app.get('/', (req, res) => {
     const path = './public/uploads';
     fs.readdir(path, function (err, items) {
         console.log(items);
-        var modified = fs.statSync(imagePath).mtimeMs;
         res.render('index', {title: 'KenzieGram', images: items});
     });
 });
